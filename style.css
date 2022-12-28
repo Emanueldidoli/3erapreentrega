@@ -1,0 +1,84 @@
+.modo-oscuro{
+    background-color: #111101;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position:center;
+    border: 1px solid black;;
+}
+
+img {
+    width: 350px;
+    height: 160px;
+}
+
+/* /*encabezado */
+.header{
+    height: 60px;
+    background-color:#1b1f2f;
+	position: sticky;
+	top: 0px;
+    padding-bottom: 10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+/* /*enlaces */
+a{
+    color: #111101;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 13px;
+    text-align: center;
+}
+
+/* pagina mi cuenta */
+
+/*  boton de cerrar sesion */
+#logout {
+    display: none;
+}
+
+/* /*contenedor de cuenta  */
+.iniciar{
+    background-color: rgb(236, 230, 230);
+    margin: 10px;
+    border: #111101  solid 1px ;
+    padding: 15px;
+}
+
+/* /*titulo ya tengo una cuenta */
+.titulo {
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* /*inputs de formulario mi cuenta */
+.sesion input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+}
+/* /*boton iniciar sesion */
+.boton{
+    width: 100%;
+    padding: 7px 33px;
+    margin-top: 10px;
+    background-color: #111101;
+    color: aliceblue;
+}
+
+/* respuesta al ingresar incorrectamente */
+#logint {
+    display: none;
+}
